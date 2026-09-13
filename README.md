@@ -27,7 +27,7 @@
 
  Projekt implementuje trójwarstwową architekturę Medallion w PostgreSQL. Dane z portali IT trafiają codziennie do warstwy Bronze jako surowe pliki JSON — bez żadnych modyfikacji. Warstwa Silver normalizuje te dane do wspólnego modelu relacyjnego przez transformacje dbt — różne struktury z portali zostają sprowadzone do jednego spójnego schematu. Warstwa Gold buduje na tym model wymiarowy Dim/Fact z agregacjami dziennymi, miesięcznymi i rocznymi gotowymi pod analizę BI.
 
-**Aktualne statystyki rynku pracy IT dostępne na żywo:** [**IT Job Market — Dashboard**](https://c9fohl3d6tl5.share.zrok.io/public/dashboard/a38490f5-3c80-45d4-b631-d7c3fbf76df6?tab=4-zak%C5%82adka-1)
+**Aktualne statystyki rynku pracy IT dostępne na żywo:** [**IT Job Market — Dashboard**](https://trvi923fuaq3.share.zrok.io/public/dashboard/a38490f5-3c80-45d4-b631-d7c3fbf76df6?tab=4-zak%C5%82adka-1)
 
 Głowne założenia wykorzystania Architektury Medallion dla tego projektu:
 
